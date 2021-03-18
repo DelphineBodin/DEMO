@@ -12,8 +12,10 @@
 <P>eni</P>
 <?php
 $maVariable =42;
-    echo "Hello World -$maVariable";
-var_dump($maVariable);
+    echo "Hello World ";
+//var_dump($maVariable);
+//$date = mktime(19,00,00,03,15,2021);
+echo date("d/m/Y H:i:s",mktime(19,00,00,03,15,2021));
 ?>
 </body>
 </html>
